@@ -12,9 +12,6 @@
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "me.ethius.template.client.TemplateClient"
-    ],
     "main": [
       "me.ethius.template.Template"
     ]
