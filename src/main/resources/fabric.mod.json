@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "template",
+  "version": "${version}",
+  "name": "Template",
+  "description": "Template for custom base 1.16 client",
+  "authors": [
+    "Ethius"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.ethius.template.client.TemplateClient"
+    ],
+    "main": [
+      "me.ethius.template.Template"
+    ]
+  },
+  "mixins": [
+    "template.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
